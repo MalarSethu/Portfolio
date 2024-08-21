@@ -1,0 +1,226 @@
+*{
+    top:0;
+    margin: 0;
+    left: 0;
+    right: 0;
+   
+}
+body,html{
+    overflow-x: hidden;
+    background-color: black;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    max-width: 100%;
+}
+.imagelogo{
+    height: 50px;
+    width: 50px;
+}
+.navbar{
+    align-items: center;
+    margin: 0 auto;
+    position: fixed;
+    
+}
+.navlist li a{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+.navbar{
+    height: 70px;
+    position: fixed;
+}
+.maincontent{
+
+    margin-top: 100px;
+}
+
+.maincontent img{
+    /* margin-top: 250px; */
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+.mainimage{
+    /* border-radius: 50%; */
+    height: 250px;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    
+}
+.para1{
+    font-weight: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -10px;
+}
+.para2{
+    font-weight: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -10px;
+}
+.maincontent span{
+    color:rgb(226, 43, 211);
+}
+.mainpara{
+    text-wrap: wrap;
+    margin: 20px;
+    padding: -20px;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.mainpara span{
+    font-size: 20px;
+    font-family: italic;
+    color: yellow;
+}
+.about-btn{
+    margin-top: 80px;
+    text-align: center;
+    justify-content: center;
+}
+.btn-primary{
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+}
+.btn-secondary{
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+}
+.experience-with{
+    text-align: center;
+}
+.experience-with h2{
+    font-size: 30px;
+    color: blue;
+    margin-top: 50px;
+}
+#skills{
+    padding-top: 50px;
+    height: 100vh;
+}
+.experience-with-lang{
+    text-align: center;
+    
+}
+.experience-with-lang p{
+    line-height: 30px;
+    width: 50%;
+    margin-left: 25%;
+}
+.experience-with-lang img{
+    text-align: center;
+    width: 50px;
+    margin: auto;
+    padding: auto;
+    cursor: pointer;
+    padding: 10px;
+}
+.projects{
+    text-align: center;
+    
+    
+}
+.forms{
+    background-color: cornflowerblue;
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 10px;
+    height: 400px;
+   
+}
+.forms label,h2{
+    color: white;
+}
+.forms h2{
+    text-align: center;
+}
+.forms label{
+    margin-right: 30px;
+}
+form input{
+    margin-left: 70px;
+    text-align: center;
+}
+
+input[type="text"]{
+    width: 250px;
+    padding: 10px 8px;
+    margin: 10px 0;
+    border: 2px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.forms button{
+    width: 50%;
+    text-align: center;
+    background-color: blue;
+    margin-top: 20px;
+    color: white;
+    padding: 10px ;
+    margin-left: 40px;
+    
+    /* margin: 8px 0; */
+    border-radius: 4px;
+    cursor: pointer;
+}
+.contactpara{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+.contactpara h1{
+    color: aqua;
+
+}
+.contactpara p span{
+    color:blue
+}
+@media all and (max-width:370px){
+    .contactpara{
+    width:80%;
+    margin: auto;
+
+    }
+    .skillspara p{
+        width:100%;
+        margin: auto;
+    
+        }
+        .forms{
+            margin: auto;
+            width: 80%;
+            
+        }
+      .forms button{
+        width: 80px;
+        margin-left: 80px;
+    }  
+    .projects{
+        margin-top: -200px;
+    }
+    .contactpara{
+        margin-top: 50px;
+        margin-bottom:- 100px;
+    }
+    #form{
+        margin-bottom: 50px;
+        
+    }
+    .nav-link a{
+        color: red;
+
+    }
+}
